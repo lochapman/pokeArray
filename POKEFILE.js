@@ -11,8 +11,9 @@ index= 0;
 
 let button = document.getElementById ('button');
 button.addEventListener('click', function() {
+    console.log ('click');
     targetElement.src  = pokeArray[index].image;
-
+    index++;
 })
 function pokeCounting() {
     let nameElement = document.getElementById("name");
